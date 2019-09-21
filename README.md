@@ -1,2 +1,2 @@
-# Node.js-Applications
-Email sender 
+# Email sender
+using Node.js
