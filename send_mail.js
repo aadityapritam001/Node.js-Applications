@@ -1,6 +1,11 @@
 // JavaScript source code
+var express=require('express');
 var nodemailer = require('nodemailer');
 var server = express();
+
+server.listen(2000, function(){
+    console.log('server started at port',2000)
+});
 
 var transporter = nodemailer.createTransport({
     service: 'gmail',
