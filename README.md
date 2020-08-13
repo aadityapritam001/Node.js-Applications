@@ -1,2 +1,2 @@
 # Email sender
-using Node.js
+Sending an Email using Node.js
